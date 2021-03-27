@@ -15,7 +15,7 @@ h1, h2, h3 {
 /*The focal point of the page*/
 h1 {
   font-size: 70px;
-  margin-bottom: 2px;
+  padding-bottom: 2px;
 }
 
 /* stylized to compliment the main heading*/
@@ -70,7 +70,9 @@ a:active {
 
 /* the image appears to be centered and a good size */
 img {
-  margin-left: 71px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
   border-radius: 25px;
 }
