@@ -44,6 +44,14 @@ ol, ul, p {
   font-size: 22px;
 }
 
+ol {
+  margin-left: 40px;
+}
+
+p {
+  text-align: center;
+}
+
 /* i couldn't get my links to stylize without having their own class */
 .links {
   text-align: center;
