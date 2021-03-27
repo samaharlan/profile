@@ -1,0 +1,76 @@
+.body {
+  background-color: #f8f5f1;
+}
+/*all of my text is the listed color and font*/
+h1, h2, h3, p, ol, ul {
+  color: #343f56;
+  font-family: Roboto; 
+}
+
+/* all of my headings are aligned */
+h1, h2, h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+/*The focal point of the page*/
+h1 {
+  font-size: 70px;
+  margin-bottom: 2px;
+}
+
+/* stylized to compliment the main heading*/
+h2 {
+  font-size: 30px;
+  padding-right: 2px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.header-break {
+  height: 4px;
+  border-radius: 20px;
+  width: 330px;
+  background-color: #e9896a
+}
+
+.break {
+  height: 4px;
+  background-color: #e9896a
+}
+
+ol, ul, p {
+  font-size: 22px;
+}
+
+/* i couldn't get my links to stylize without having their own class */
+.links {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+
+}
+/*stylized the links to be a good color scheme*/
+a:link {
+    color: #343f56;
+}
+
+a:visited {
+    color: #387c6d;
+}
+
+a:hover {
+    color: #343f56;
+}
+
+a:active {
+    color: lightgray;
+}
+
+/* the image appears to be centered and a good size */
+img {
+  margin-left: 71px;
+  width: 400px;
+  border-radius: 25px;
+}
